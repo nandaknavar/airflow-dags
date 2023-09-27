@@ -1,5 +1,6 @@
 # Airflow DAG to start a set of EC2 instances on a schedule
 # This DAG is part of scheduled stop and start instances to save costs
+#
 # Airflow version 2.4.3
 # apache-airflow-providers-amazon version 7.2.1
 

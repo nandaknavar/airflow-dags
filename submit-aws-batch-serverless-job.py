@@ -1,3 +1,10 @@
+# Airflow DAG to run a container using AWS Batch
+# Compute type and resources are specified in AWS Batch job definition 
+# Serverless fargate is used as compute environment 
+#
+# Airflow version 2.4.3
+# apache-airflow-providers-amazon version 7.2.1
+
 from pathlib import Path
 
 import pendulum
